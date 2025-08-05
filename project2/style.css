@@ -1,0 +1,78 @@
+body{
+    background-color: #e1cbb4;
+}
+#header{
+    display: flex;
+    justify-self: center;
+}
+#heading{
+    display: flex;
+    justify-self: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+#logo{
+    display: flex;
+    justify-self: center;
+    margin-top: 6px;
+    font-size: 40px;
+}
+
+#calculator-container{
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 450ox;
+    display: flex;
+
+}
+#calculator{
+    margin-top: 150px ;
+    background-color:black;
+    height: 300px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+#input-field{
+    height: 49px;
+    width: 247px;
+    background-color: #faf8f6;
+    color: black;
+}
+
+#result-field{
+    height: 49px;
+    width: 247px;
+    background-color: #faf8f6;
+
+}
+
+.buttons{
+    margin-left: 11px;
+    margin-right: 11px;
+
+}
+.cal_buttons{
+    color: white;
+    background-color: rgb(60, 56, 56);
+    font-weight: 450;
+    border: 1px solid black;
+    height: 40px;
+    border-radius: 15px;
+    cursor: pointer;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.cal_buttons:hover{
+    background-color: rgb(83, 83, 11);
+    scale: 1.1;
+    transition: 0.1s;
+}
+.mth{
+    background-color: rgb(161, 109, 12);
+}

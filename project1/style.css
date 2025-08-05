@@ -1,0 +1,32 @@
+body{
+        background-color: #edecda;
+        font-family:Georgia, 'Times New Roman', Times, serif;  
+    } 
+    #header{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        height: 70px;
+        margin-bottom: 70px;
+        font-size: 20px;
+    }
+    #content {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-bottom: 15px;
+    }
+    .input{
+        height: 35px;
+        width: 145px;
+        border-radius: 5px;
+        background-color: #f1beb5;
+        text-align: center;
+    }
+    #btn{
+        height: 28px;
+        width: 65px;
+        border-radius: 5px;
+        background-color: #d4c6aa;
+        text-align: center;
+    }

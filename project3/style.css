@@ -1,0 +1,52 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#header{
+    display: flex;
+    justify-self: center;
+}
+#logo{
+    font-size: 40px;
+    display: flex;
+    margin-right: 8px;
+}
+#heading{
+    font-size: 28px;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    display: flex;
+}
+
+#color-code{
+    justify-self: center;
+    margin-top: 50px;
+}
+#container2{
+    justify-self: center;
+    font-weight: bold;
+    margin-top: 35px;
+}
+#container3{
+    justify-self: center;
+    margin-top: 10px;
+}
+
+
+#color-container{
+   display: grid;
+   grid-template-columns: repeat(3, 0fr);
+   
+}
+
+#color-container > div{
+    height: 75px;
+    width: 75px;
+    border-radius: 10px;
+    margin: 8px;
+    cursor: pointer;
+}
+#color-container > div:hover{
+    scale: 1.2;
+    transition: 0.35s;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Toe Game</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header id="header" style="font-size: 20px;"><h1 > Tic Toe Game</h1></header>
+
+    <div class="names">
+        <span id="player1">Player 1</span>
+        <span>VS</span>
+        <span id="player2">Player 2</span>
+    </div>
+    <div id="grid">
+        <!-- Row 1 -->
+        <div class="row">
+            <div onclick="handleClick(this)" id="0" class="cln"></div>
+            <div onclick="handleClick(this)" id="1" class="cln"></div>
+            <div onclick="handleClick(this)" id="2" class="cln"></div>
+        </div>
+
+        <!-- Row 2 -->
+        
+        <div class="row">
+            <div onclick="handleClick(this)" id="3" class="cln"></div>
+            <div onclick="handleClick(this)" id="4" class="cln"></div>
+            <div onclick="handleClick(this)" id="5" class="cln"></div>
+        </div>
+        
+        <!-- Row 3 -->
+        <div class="row">
+            <div onclick="handleClick(this)" id="6" class="cln"></div>
+            <div onclick="handleClick(this)" id="7" class="cln"></div>
+            <div onclick="handleClick(this)" id="8" class="cln"></div>
+        </div>
+
+    </div>
+    <div class="turn">
+        <span id="turn"> Beta</span>
+        <span> is your turn</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

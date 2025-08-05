@@ -1,0 +1,54 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    background-color: #edecda;  
+}
+#header{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 70px;
+    margin-bottom: 10px;
+}
+#grid{
+    justify-self: center;
+}
+.row{ 
+    display: flex;
+    background-color: #e8cdf9;
+    /* margin-left: 400px; */
+}
+
+
+.cln {
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    border-color: black;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;  
+}
+.names{
+    margin-bottom: 20px;
+    color: #522546;
+    justify-self: center;
+}
+
+#player1 {
+    /* margin-left: 350px; */
+    margin-right: 15px;
+    
+}
+#player2{
+    margin-left: 15px;
+    
+}
+.turn{
+    color: #522546;
+    margin-top: 18px;
+    font-size: 20px;
+    justify-self: center;
+}

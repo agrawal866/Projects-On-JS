@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="header">
+        <span id="logo">🔢</span>
+        <span id="heading">Calculator</span>
+    </div>
+    <div id="calculator-container">
+        <div id="calculator">
+            <input type="text"  disabled id="input-field" >
+            <input type="number" disabled id="result-field" placeholder="ANS">
+
+            <div class="buttons">
+
+                <div class="row">
+                    <div onclick="allClear()" class="col col-5 cal_buttons">AC</div>
+                    <div onclick="handleClickButton(this)" class="col col-4 cal_buttons">⌫</div>
+                    <div onclick="handleClickButton(this)" class="col col-3 cal_buttons mth">÷</div>
+                </div>
+                
+                <div class="row">
+                    <div onclick="handleClickButton(this)" class="col col-3 cal_buttons">7</div>
+                    <div onclick="handleClickButton(this)" class="col col-3 cal_buttons">8</div>
+                    <div onclick="handleClickButton(this)" class="col col-3 cal_buttons">9</div>
+                    <div onclick="handleClickButton(this)" class="col col-3 cal_buttons mth">×</div>
+                </div>
+
+
+                <div class="row">
+                    <div onclick="handleClickButton(this)" class="col col-3 cal_buttons">4</div>
+                    <div onclick="handleClickButton(this)" class="col col-3 cal_buttons">5</div>
+                    <div onclick="handleClickButton(this)" class="col col-3 cal_buttons">6</div>
+                    <div onclick="handleClickButton(this)" class="col col-3 cal_buttons mth">+</div>
+                </div>
+
+
+                <div class="row">
+                    <div onclick="handleClickButton(this)" class="col col-3 cal_buttons">1</div>
+                    <div onclick="handleClickButton(this)" class="col col-3 cal_buttons">2</div>
+                    <div onclick="handleClickButton(this)" class="col col-3 cal_buttons">3</div>
+                    <div onclick="handleClickButton(this)" class="col col-3 cal_buttons mth">-</div>
+                </div>
+
+                <div class="row">
+                    <div onclick="handleClickButton(this)" class="col col-5 cal_buttons">0</div>
+                    <div onclick="handleClickButton(this)" class="col col-4 cal_buttons">.</div>
+                    <div onclick="handleClickButton(this)" class="col col-3 cal_buttons mth">=</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+</body>
+</html>
